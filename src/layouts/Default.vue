@@ -1,8 +1,8 @@
 <template>
   <Nav />
 
-  <header class="container">
-    <Heads>What is the point of all?</Heads>
+  <header  class="container">
+    <Heads>Island Craft Shop</Heads>
   </header>
 
   <main class="container flex-shrink-0 mb-4">

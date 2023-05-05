@@ -1,7 +1,7 @@
 <template>
     <div class="box p-5 mb-4 rounded-3">
-        <div class="container-fluid py-5">
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="https://res.cloudinary.com/doammukzv/image/upload/v1682682860/Art/Halstrom6_zdisrz.jpg" class="d-block w-100" alt="...">
@@ -22,8 +22,15 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+
+
+
+        <div class="container-fluid py-5">
+    
             <h1 class="display-5 fw-bold"><slot></slot></h1>
-            <!-- <p class="col-md-8 fs-4">The point of it all is beyond the grasp of human intelligence. Be humble. Be grateful simply knowing that you, we, all are taking part in this One big story called The Universe. Thankfully, we have the tools to acknowledge that fact in wonder and awe.</p> -->
+            <p class="col-md-8 fs-4 tag">
+                A Cooperative Community
+            </p>
         </div>
     </div>
 </template>

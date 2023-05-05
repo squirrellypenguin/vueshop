@@ -1,1 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 * {border:1px solid red}
+
+#app{
+    background-color: #d5c9bc;
+}
+.h1ader {
+    font-family: 'Pacifico', sans-serif;
+    color: white;
+    text-shadow: 3px 3px 3px #240202;
+   
+}
+.display-5.title {
+    margin-top: -20vh;
+}
+
+.tag {
+    margin-top: -45vh;
+    font-family: 'Pacifico', sans-serif;
+}
+.p-5 {
+    padding: 0px !important;
+}
+.py-5 {
+    position: relative;   
+}
